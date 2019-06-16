@@ -1,0 +1,31 @@
+.u-capitalize {
+    text-transform: capitalize !important;
+}
+.u-outlineNone {
+    outline: none !important;
+}
+.u-textDecorationNone {
+    text-decoration: none !important;
+}
+.u-textAlignCenter {
+    text-align: center !important;
+}
+.u-colorBlack40 {
+    color: #212121 !important;
+}
+
+.u-fontWeight400 {
+    font-weight: 400 !important;
+}
+
+.u-fontSize14 {
+    font-size: 14px !important;
+}
+
+.u-lineClamp3 {
+    display: -webkit-box !important;
+    -webkit-line-clamp: 3 !important;
+    -webkit-box-orient: vertical !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}

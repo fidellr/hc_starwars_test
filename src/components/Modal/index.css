@@ -1,0 +1,84 @@
+  .modalBtn {
+    background: #428bca;
+    border: #357ebd solid 0px;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    padding: 8px 15px;
+    text-decoration: none;
+    text-align: center;
+    min-width: 60px;
+    position: relative;
+    transition: color .1s ease;
+  }
+  .modalBtn:hover {
+    background: #357ebd;
+  }
+  .modalBtn.btn-big {
+    font-size: 18px;
+    padding: 15px 20px;
+    min-width: 100px;
+  }
+  .btn-close {
+    color: #aaaaaa;
+    font-size: 20px;
+    text-decoration: none;
+    padding:10px;
+    position: absolute;
+    right: 7px;
+    top: 0;
+  }
+  .btn-close:hover {
+    color: #919191;
+  }
+  .modal:before {
+    content: "";
+    display: none;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+  }
+  .opened:before {
+    display: block;
+  }
+  .opened .modalDialog {
+    overflow: scroll;
+    height: 100%;
+    width: 100%;
+    max-height: 500px;
+    max-width: 360px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    background: #fefefe;
+    border: #333333 solid 0px;
+    border-radius: 5px;
+    bottom: 0;
+    margin: 0 auto;
+    z-index: 11;
+    box-shadow:0 5px 10px rgba(0,0,0,0.3);
+  }
+  .modalBody {
+    padding: 20px;
+  }
+  .modalHeader,
+  .modalFooter {
+    padding: 10px 20px;
+  }
+  .modalHeader {
+    border-bottom: #eeeeee solid 1px;
+  }
+  .modalHeader h2 {
+    font-size: 20px;
+  }
+
+  @media screen and (min-width: 800px) {
+    .opened .modalDialog {
+        top: 20%;
+    }
+  }

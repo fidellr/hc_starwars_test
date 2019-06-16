@@ -1,0 +1,22 @@
+.appBar-logoSection > .logo {
+    max-height: 50px;
+    max-width: 107px;
+    background: url(../../assets/starwars_logo.png);
+}
+.navBar.u-fixed {
+    z-index: 200;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.05);
+}
+.navBarLink.active {
+    font-weight: 600 !important;
+}
+.navBarLink.active::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    left: 0;
+    bottom: -8px;
+    border-radius: 3px;
+    background-color: #ff000085;
+}

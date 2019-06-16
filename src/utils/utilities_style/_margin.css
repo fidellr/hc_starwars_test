@@ -1,0 +1,30 @@
+.u-margin0 {
+    margin: 0 !important;
+}
+.u-marginCentering {
+    margin: 0 auto !important;
+}
+.u-margin16 {
+    margin: 16px !important;
+}
+
+.u-marginVertical16 {
+    margin-top: 16px !important;
+    margin-bottom: 16px !important;
+}
+.u-marginBottom16 {
+    margin-bottom: 16px !important;
+}
+
+.u-marginHorizontal16 {
+    margin-right: 16px !important;
+    margin-left: 16px !important;
+}
+
+.u-marginTop10 {
+    margin-top: 10px !important;
+}
+
+.u-marginBottom0 {
+    margin-bottom: 0 !important;
+}
