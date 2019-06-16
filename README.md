@@ -23,3 +23,7 @@ The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+1. I use utilities CSS strategy to prevent any duplicated styles and bloated css files, for more details you can see [here](https://blog.usejournal.com/utility-first-css-ridiculously-fast-front-end-development-for-almost-every-design-503130d8fefc).
+2. Any reusable components, placed in `/src/components` directory
+3. For pages, placed in `/src/pages` directory
